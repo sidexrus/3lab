@@ -127,5 +127,11 @@ namespace UnitTest
             game g = new game();
             g.next_step();
         }
+        [TestMethod]
+        public void TestMethod14()
+        {
+            game g = new game();
+            g.congratulate(string winner);
+        }
     }
 }
