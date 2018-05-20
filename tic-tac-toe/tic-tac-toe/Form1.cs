@@ -18,10 +18,12 @@ namespace tic_tac_toe
         }
 
         public List<int> res = new List<int>();
+        public game g = new game();
         private void Form1_Load(object sender, EventArgs e)
         {
             for (int i = 0; i < 10; i++)
                 res.Add(0);
+
         }
 
         private void button1_Click(object sender, EventArgs e)
