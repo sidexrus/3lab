@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using tic_tac_toe;
 
@@ -20,7 +21,8 @@ namespace UnitTest
         public void TestMethod3()
         {
             game g = new game();
-            g.checkresult();
+            List<int> res = new List<int>();
+            g.checkresult(res);
         }
     }
 }
