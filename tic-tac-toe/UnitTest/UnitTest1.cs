@@ -17,5 +17,10 @@ namespace UnitTest
             game g = new game();
             bool f = g.x_o;
         }
+        public void TestMethod3()
+        {
+            game g = new game();
+            g.checkresult();
+        }
     }
 }
