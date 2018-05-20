@@ -9,5 +9,9 @@ namespace tic_tac_toe
     public class game
     {
         public bool x_o = true;
+        public int checkresult()
+        {
+            return 1;
+        }
     }
 }
