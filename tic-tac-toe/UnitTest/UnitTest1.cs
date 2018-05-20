@@ -12,5 +12,10 @@ namespace UnitTest
         {
             game g = new game();
         }
+        public void TestMethod2()
+        {
+            game g = new game();
+            bool f = g.x_o;
+        }
     }
 }
