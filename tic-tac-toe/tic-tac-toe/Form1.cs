@@ -16,5 +16,12 @@ namespace tic_tac_toe
         {
             InitializeComponent();
         }
+
+        public List<int> res = new List<int>();
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 10; i++)
+                res.Add(0);
+        }
     }
 }
