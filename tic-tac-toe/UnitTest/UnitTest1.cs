@@ -131,7 +131,8 @@ namespace UnitTest
         public void TestMethod14()
         {
             game g = new game();
-            g.congratulate(string winner);
+            string winner = "Нолики";
+            g.congratulate(winner);
         }
     }
 }
