@@ -11,7 +11,7 @@ namespace tic_tac_toe
         public bool x_o = true;
         public int checkresult(List<int> result)
         {
-            return 1;
+            return 0;
         }
     }
 }
