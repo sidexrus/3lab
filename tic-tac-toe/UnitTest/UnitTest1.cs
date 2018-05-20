@@ -43,7 +43,7 @@ namespace UnitTest
             for (int i = 0; i < 10; i++)
                 res.Add(0);
             for (int i = 0; i < 10; i+=3)
-                res.Add(1);
+                res[i] = 1;
             Assert.AreEqual(1, g.checkresult(res));
         }
     }

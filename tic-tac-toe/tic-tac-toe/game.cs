@@ -12,6 +12,7 @@ namespace tic_tac_toe
         public int checkresult(List<int> result)
         {
             if ((result[0] == result[1]) && (result[0] == result[2]) && result[0] != 0)  return 1;
+            if ((result[0] == result[3]) && (result[0] == result[6]) && result[0] != 0) return 1;
             return 0;
         }
     }
