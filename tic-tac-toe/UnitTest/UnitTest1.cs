@@ -121,5 +121,11 @@ namespace UnitTest
                 res.Add(0);
             Assert.AreEqual(0, g.checkresult(res));
         }
+        [TestMethod]
+        public void TestMethod13()
+        {
+            game g = new game();
+            g.next_step();
+        }
     }
 }
