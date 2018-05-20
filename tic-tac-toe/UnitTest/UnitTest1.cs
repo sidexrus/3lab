@@ -10,6 +10,7 @@ namespace UnitTest
         [TestMethod]
         public void TestMethod1()
         {
+            game g = new game();
         }
     }
 }
