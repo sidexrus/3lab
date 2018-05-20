@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace tic_tac_toe
 {
@@ -26,6 +27,11 @@ namespace tic_tac_toe
         public void next_step()
         {
             x_o = !x_o;
+        }
+
+        public void congratulate(string winner)
+        {
+            MessageBox.Show("Победили " + winner + "!");
         }
     }
 }
