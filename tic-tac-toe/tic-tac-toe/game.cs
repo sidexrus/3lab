@@ -31,7 +31,10 @@ namespace tic_tac_toe
 
         public void congratulate(string winner)
         {
-            MessageBox.Show("Победили " + winner + "!");
+            string win = "";
+            if (winner == "X") win = "крестики";
+            else win = "нолики";
+            MessageBox.Show("Победили " + win + "!");
         }
     }
 }
